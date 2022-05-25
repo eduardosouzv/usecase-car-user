@@ -1,0 +1,34 @@
+.car-shop {
+  display: flex;
+  justify-content: space-around;
+}
+
+.car-shop > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} 
+
+.car-shop button {
+  padding: 8px;
+  cursor: pointer;
+  border: 0;
+  background-color: #312C2F;
+  color: white;
+  font-weight: bold;
+}
+
+.owner input {
+  border: 1px solid #312C2F;
+}
+
+.owner {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.car-message {
+  text-align: center;
+  margin-top: 16px;
+}

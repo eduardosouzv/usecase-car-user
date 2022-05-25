@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #e6e6e6;
+}
+
+body {
+  width: 500px;
+  margin: 0 auto;
+}
+
+nav {
+  margin-top: 16px;
+  margin-bottom: 16px;
+
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  font-size: 24px;
+}
+
+nav a {
+  color: black;
+}
+
